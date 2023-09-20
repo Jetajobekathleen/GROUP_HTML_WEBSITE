@@ -3,11 +3,11 @@
 <br>
 <p>
 <ul>
-<i class="bi bi-android2"></i>KATHLEEN JOY JETAJOBE
-<i class="bi bi-android2"></i>MELODY ESCOBEDO
-<i class="bi bi-android2"></i>CATHERINE GRANADO
-<i class="bi bi-android2"></i>GIZELLE DELOS SANTOS
-<i class="bi bi-android2"></i>CHERRY ANN GACOSTA
-<i class="bi bi-android2"></i>JACILLE GABELO
+<li>KATHLEEN JOY JETAJOBE</li><br>
+<li>MELODY ESCOBEDO</li><br>
+<li>CATHERINE GRANADO</li><br>
+<li>GIZELLE DELOS SANTOS</li><br>
+<li>CHERRY ANN GACOSTA</li><br>
+<li>JACILLE GABELO</li><br>
 </ul>
 </p>
