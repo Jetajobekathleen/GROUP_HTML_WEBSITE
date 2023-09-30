@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(114, 174, 189);
+    margin: 3%;
+}
+.container{
+    background-color: #acdbe7; 
+    margin-top: 10px; 
+    margin-bottom: 30px;
+}
+h1 {
+   color: #347293;
+   text-align: center;
+}
+h4{
+    color: #347293; 
+    size: 3px;
+    text-align: center;
+    font-weight: bold;
+}
+div hr {
+    width: 100%;
+    size: 2;
+}
+p {
+    align-items: center; 
+    margin-left: 45%;
+}
+a {
+    background-color: #acdbe7;
+    border-radius: 5%;
+    font-size: 20px;
+    padding: 2%;
+}
+a:link {
+    color: rgb(6, 30, 111);
+  }
+a:visited {
+    color: rgb(7, 70, 107);
+  }
+a:hover {
+    color: rgb(147, 199, 235);
+  }
+a:active {
+    color: blue;
+  }
+  
+
