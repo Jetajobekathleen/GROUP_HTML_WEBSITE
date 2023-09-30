@@ -7,6 +7,13 @@ body {
     margin-top: 10px; 
     margin-bottom: 30px;
 }
+div img {
+    align-items: center; 
+    width: 12%; 
+    height: 12%;
+    margin-left: 22%;
+    padding-left: 22%;
+}
 h1 {
     color: #347293;
     text-align: center;
@@ -23,6 +30,13 @@ div hr {
 aside {
     height: 100%; 
     width: 15%;
+    background-color: rgb(172, 219, 231); 
+    padding-bottom: 30px; 
+    padding-left: 5px ; 
+    padding-right: 5px; 
+    margin-bottom:3px; 
+    margin-right: 8px; 
+    float: left;
 }
 h3 {
     color: #347293;
@@ -32,4 +46,26 @@ div p {
     size: 10px; 
     font-weight: bold;
     text-align: center;
+}
+table, th, td {
+    border: 2px solid rgb(15, 68, 105); 
+    text-align: center; 
+    background-color: rgb(181, 225, 246);
+    color: #0f4469;  
+    border-collapse: collapse;
+    padding: 2px;
+}
+footer {
+    height: 30%; 
+    background-color: rgb(172, 219, 231); 
+    background-position: end; 
+    font-size: 15px;
+    text-align: center;
+}
+footer p{ 
+    color: rgb(52, 114, 147);
+    text-align: center;
+}
+p {
+    color: rgb(87, 86, 86);
 }
