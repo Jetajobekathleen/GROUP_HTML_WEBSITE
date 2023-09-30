@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(114, 174, 189);
+    margin: 3%;
+}
+.container{
+    background-color: #acdbe7; 
+    margin-top: 10px; 
+    margin-bottom: 30px;
+}
+h1 {
+    color: #347293;
+    text-align: center;
+}
+h4 {
+    color: #347293; 
+    size: 4px; 
+    text-align: center;
+}
+div hr {
+    width: 100%;
+    size: 2;
+}
+aside {
+    height: 100%; 
+    width: 15%;
+}
+h3 {
+    color: #347293;
+    font-style: italic;
+}
+div p {
+    size: 10px; 
+    font-weight: bold;
+    text-align: center;
+}
