@@ -1,0 +1,123 @@
+#headerServices {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25pt;
+    color: #007200;
+    margin: 2em;
+}
+.services_flexbox {
+    margin: 5em 1em;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: content-box;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+#flex1{
+    padding: 5px;
+    width: 15vw;
+    height: 40vh;
+    background-color: #ffffff;
+}
+#flex2 {
+    padding: 5px;
+    width: 15vw;
+    height: 40vh;
+    background-color: #ffffff;
+}
+#flex3 {
+    padding: 5px;
+    width: 15vw;
+    height: 40vh;
+    background-color: #ffffff;
+}
+#flex4 {
+    padding: 5px;
+    width: 15vw;
+    height: 40vh;
+    background-color: #ffffff;
+}
+#flex5 {
+    padding: 5px;
+    width: 15vw;
+    height: 40vh;
+    background-color: #ffffff;
+}
+#flex6 {
+    padding: 5px;
+    width: 15vw;
+    height: 40vh;
+    background-color: #ffffff;
+}
+
+#flex1 p {
+    font-size: 10pt;
+}
+#flex2 p {
+    font-size: 10pt;
+}
+#flex3 p {
+    font-size: 10pt;
+}
+#flex4 p {
+    font-size: 10pt;
+}
+#flex5 p {
+    font-size: 10pt;
+}
+#flex6 p {
+    font-size: 10pt;
+}
+
+@media (max-width: 754px){
+    .services_flexbox {
+        margin: 5em 1em;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        box-sizing: content-box;
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+    #flex1{
+        padding: 5px;
+        width: 45vw;
+        height: 40vh;
+        background-color: #ffffff;
+    }
+    #flex2 {
+        padding: 5px;
+        width: 45vw;
+        height: 40vh;
+        background-color: #ffffff;
+    }
+    #flex3 {
+        padding: 5px;
+        width: 45vw;
+        height: 40vh;
+        background-color: #ffffff;
+    }
+    #flex4 {
+        padding: 5px;
+        width: 45vw;
+        height: 40vh;
+        background-color: #ffffff;
+    }
+    #flex5 {
+        padding: 5px;
+        width: 45vw;
+        height: 40vh;
+        background-color: #ffffff;
+    }
+    #flex6 {
+        padding: 5px;
+        width: 45vw;
+        height: 40vh;
+        background-color: #ffffff;
+    }
+    
+}

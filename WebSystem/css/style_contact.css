@@ -1,0 +1,43 @@
+body {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h1 {
+    color: #197901;
+    margin: 0.3em;
+    text-align: center;
+}
+.contactBox {
+    margin: auto;
+    margin-top: 3em;
+    box-sizing: content-box;
+    width: 30vw;
+    height: 50vh;
+    background-color: #ffffff;
+    padding: 3em;
+    align-items: center;
+    justify-content: center;
+   
+}
+#submit {
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px white solid;
+}
+@media (max-width: 754px){
+    .contactBox {
+        margin: auto;
+        margin-top: 1em;
+        box-sizing: content-box;
+        width: 30vw;
+        height: 55vh;
+        background-color: #ffffff;
+        padding: 3em;
+        align-items: center;
+        justify-content: center; 
+    }
+}

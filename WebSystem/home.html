@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" title="style">
+    <link rel="stylesheet" type="text/css" href="./css/style_signup.css" title="style">
+    <link rel="stylesheet" type="text/css" href="./css/style_home.css" title="style">
+    <link rel="stylesheet" type="text/css" href="./css/style_aboutUS.css" title="style">
+    <link rel="stylesheet" type="text/css" href="./css/styleServices.css" title="style">
+    <link rel="stylesheet" type="text/css" href="./css/style_contact.css" title="style">
+    <link rel="stylesheet" type="text/css" href="./css/addtocart.css" title="style">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<!--top_menu_nav_start-->
+<!-- <NAVBAR> -->
+    <form action="index.html" method="post">
+        <nav class="navbar">
+          <h2 id="logo">BeautyHolic</h2>
+            <!--menu-->
+            <ul id="nav_menu_links">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="about_us.html">About Us</a></li>
+              <li><a href="services.html">Services</a> </li>
+              <li><a href="contact.html">Contact</a></li>  
+              <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+            </ul>
+          <!-- search bar-->
+          <div class="search_bar">
+              <input type="search" placeholder=" search " name="q">
+              <button><i class="fa fa-search" aria-hidden="true"></i></i></button>
+            </form>
+            </div>  
+        </nav>  
+      </form>
+<body>
+ <div class="sales_container">
+        <h3>OUR BEST SELLERS ON SALE!!</h2><br>
+    <div class="sale_products">
+        <div id="sale_1">
+            <img src="./images/cleanser_cetaphil.jpg" alt="cln_cetaphil">
+            <hr>
+            <div class="price">
+                <p>Cetaphil Cleanser</p>
+                <span><b class="sale_price"><b>$10.00</b>&nbsp;- $8.99</b></span>
+            </div>
+            <div id="icons">
+                <button id="heart1" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+                <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button onclick="addToCart(item1)" class="cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                <script>
+                  // heart onclick function
+                   (function() {
+                    const heart = document.getElementById('heart1');
+                      heart.addEventListener ('click', function() {
+                        heart.classList.toggle('red');
+                        });
+                  })();    
+                  
+                  // share onclick function
+                  function welcome(){
+                    window.open("contact.html")
+                  }
+                </script>
+              </div>
+        </div><br>
+
+        <div id="sale_2"> 
+          <img src="./images/toner_ordinary.jpg" alt="toner_ordinary">
+          <hr>
+          <div class="price">
+            <p>The Ordinary Glicolic Toner</p>
+            <span><b class="sale_price"><b>$21.00</b>&nbsp;- $20.99</b></span>
+          </div>
+          <div id="icons_2">
+            <button id="heart2" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+            <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+            <button onclick="addToCart(item2)" class="cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            <script>
+              // heart onclick function
+              (function() {
+                const heart = document.getElementById('heart2');
+                  heart.addEventListener ('click', function() {
+                    heart.classList.toggle('red');
+                    });
+              })();  
+              // share onclick function
+              function welcome(){
+                window.open("contact.html")
+              }
+            </script>
+          </div>
+        </div><br>
+
+        <div id="sale_3">
+          <img src="./images/moisture_la-roche-posay.jpg" alt="moisture_la-roche-posay">
+          <hr>
+          <div class="price">
+            <p>La-roche-posay Moisturizer</p>
+            <span><b class="sale_price"><b>$26.00</b>&nbsp;- $24.99</b></span>
+          </div>
+          <div id="icons_3">
+            <button id="heart3" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+            <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+            <button onclick="addToCart(item3)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            <script>
+              // heart onlcick function
+              (function() {
+                const heart = document.getElementById('heart3');
+                  heart.addEventListener ('click', function() {
+                    heart.classList.toggle('red');
+                    });
+              })();  
+              // share onclick function
+              function welcome(){
+                window.open("contact.html")
+              }        
+            </script>
+          </div>
+        </div><br>
+
+        <div id="sale_4">
+          <img src="./images/mask_caudalie.png" alt="mask_caudalie">
+          <hr>
+          <div class="price">
+            <p>Caudalie Mask</p>
+            <span><b class="sale_price"><b>$13.89</b>&nbsp;- $12.89</b></span>
+          </div>
+          <div id="icons_4">
+            <button id="heart4" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+            <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+            <button onclick="addToCart(item4)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            <script>
+              // heart onclick function
+              (function() {
+                const heart = document.getElementById('heart4');
+                  heart.addEventListener ('click', function() {
+                    heart.classList.toggle('red');
+                    });
+              })();  
+             // share onclick function
+             function welcome(){
+                window.open("contact.html")
+              }  
+            </script>
+          </div>
+        </div><br>
+
+        <div id="sale_5">
+          <img src="./images/cleanser_SA_cerave.jpeg" alt="cleanser_SA_cerave">
+          <hr>
+          <div class="price">
+            <p>SA CaraVe Cleanser</p>
+            <span><b class="sale_price"><b>$15.99</b>&nbsp;- $14.99</b></span>
+          </div>
+          <div id="icons_5">
+            <button id="heart5" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+            <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+            <button onclick="addToCart(item5)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            <script>
+              // heart onclick function
+              (function() {
+                const heart = document.getElementById('heart5');
+                  heart.addEventListener ('click', function() {
+                    heart.classList.toggle('red');
+                    });
+              })();  
+              // share onclick function
+              function welcome(){
+                window.open("contact.html")
+              }          
+            </script>
+          </div>
+        </div><br>
+
+        <div id="sale_6">
+          <img src="./images/suncreen_la-roche-posay.jpg" alt="suncreen_la-roche-posay">
+          <hr>
+          <div class="price">
+            <p>La-roche-posay Sunscreen</p>
+            <span><b class="sale_price"><b>$17.68</b>&nbsp;- $16.56</b></span>
+          </div>
+          <div id="icons_6">
+            <button id="heart6" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+            <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+            <button onclick="addToCart(item6)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+              <script>
+              (function() {
+                const heart = document.getElementById('heart6');
+                  heart.addEventListener ('click', function() {
+                    heart.classList.toggle('red');
+                    });
+              })();   
+              // share onclick function
+              function welcome(){
+                    window.open("contact.html")
+                  }               
+            </script>
+          </div>
+        </div><br>
+        </div>
+    </div>
+ </div>
+
+
+<!-- ROW 1 PRODUCTS -->
+  <div class="row_1_prdct">
+    <div id="sale_7">
+      <img src="./images/cetaphil_brighten.jpg" alt="cetaphil_brighten">
+      <hr>
+      <div class="price">
+        <p>Cetaphil Brightening Cleanser</p>
+        <b class="sale_price">$11.55</b>
+      </div>
+      <div id="icons_7">
+        <button id="heart7" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+        <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+        <button onclick="addToCart(item7)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+        <script>
+          // heart onclick function
+          (function() {
+           const heart = document.getElementById('heart7');
+             heart.addEventListener ('click', function() {
+               heart.classList.toggle('red');
+               });
+         })();   
+          // share onclick function
+          function welcome(){
+            window.open("contact.html")
+          }             
+       </script>
+      </div>
+      </div>
+
+      <div id="sale_8">
+        <img src="./images/cleanser_bioessance.jpg" alt="cleanser_bioessance"> 
+        <hr>
+        <div class="price">
+          <p>Bioessence Cleansing Oil</p>
+          <b class="sale_price">$9.80</b>
+        </div>
+        <div id="icons_8">
+          <button id="heart8" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+          <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+          <button onclick="addToCart(item8)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+          <script>
+            // heart onclick function
+            (function() {
+             const heart = document.getElementById('heart8');
+               heart.addEventListener ('click', function() {
+                 heart.classList.toggle('red');
+                 });
+           })();  
+           // share onclick function
+          function welcome(){
+            window.open("contact.html")
+          }               
+         </script>
+        </div>
+      </div>
+
+        <div id="sale_9">
+          <img src="./images/cleanser_croxz.jpeg" alt="cleanser_croxz"> 
+          <hr>
+          <div class="price">
+            <p>Croxz Salycilic Cleanser</p>
+            <b class="sale_price">$5.80</b>
+          </div>
+          <div id="icons_9">
+            <button id="heart9" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+            <button onclick="welcome" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+            <button onclick="addToCart(item9)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            <script>
+              // heart onclick function
+              (function() {
+               const heart = document.getElementById('heart9');
+                heart.addEventListener ('click', function() {
+                  heart.classList.toggle('red');
+              });
+             })();  
+             // share onclick function
+            function welcome(){
+              window.open("contact.html")
+            }               
+           </script>
+          </div>
+        </div>
+
+        <div id="sale_10">
+            <img src="./images/cleanser_elizabeth_arden.jpg" alt="cleanser_elizabeth_arden"> 
+            <hr>
+          <div class="price">
+            <p>Elizabeth Arden Cleanser</p>
+            <b class="sale_price">$16.99</b>
+          </div>
+          <div id="icons_10">
+            <button id="heart10" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+            <button onclick="welcome" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+            <button onclick="addToCart(item10)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            <script>
+              (function() {
+               const heart = document.getElementById('heart10');
+                heart.addEventListener ('click', function() {
+                  heart.classList.toggle('red');
+              });
+             })();  
+              // share onclick function
+            function welcome(){
+              window.open("contact.html")
+            }               
+           </script>
+          </div>
+        </div>
+          
+        <div id="sale_11">
+              <img src="./images/cleanser_goop.jpg" alt="cleanser_goop"> 
+              <hr>
+          <div class="price">
+            <p>Goop Cleansing Balm</p>
+            <b class="sale_price">$4.95</b>
+          </div>
+          <div id="icons_11">
+            <button id="heart11" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+            <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+            <button onclick="addToCart(item11)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            <script>
+              (function() {
+               const heart = document.getElementById('heart11');
+                 heart.addEventListener ('click', function() {
+                   heart.classList.toggle('red');
+                   });
+             })();  
+              // share onclick function
+            function welcome(){
+              window.open("contact.html")
+            }               
+           </script>
+          </div>
+        </div>
+
+        <div id="sale_12">
+          <img src="./images/cleanser_kale.jpg" alt="cleanser_kale"> 
+          <hr>
+          <div class="price">
+            <p>Kale GreenTea Spinach Cleanser</p>
+            <b class="sale_price">$8.80</b>
+          </div>
+          <div id="icons_12">
+            <button id="heart12" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+            <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+            <button onclick="addToCart(item12)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            <script>
+              (function() {
+               const heart = document.getElementById('heart12');
+                 heart.addEventListener ('click', function() {
+                   heart.classList.toggle('red');
+                   });
+             })();    
+              // share onclick function
+            function welcome(){
+              window.open("contact.html")
+            }             
+           </script>
+          </div>
+        </div>          
+  </div>
+<!-- /end of ROW 1 PRODUCTS-->
+
+<!-- ROW 2 PRODUCTS-->
+    <div  class="row_2_prdct">
+      <div id="sale_13">
+        <img src="./images/cleanser_tata_harper.jpg" alt="cleanser_tata_harper">
+        <hr>
+        <div class="price">
+          <p>Tata Harper Cleanser</p>
+          <b class="sale_price">$11.55</b>
+        </div>
+        <div id="icons_13">
+          <button id="heart13" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+          <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+          <button onclick="addToCart(item13)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+          <script>
+            (function() {
+             const heart = document.getElementById('heart13');
+               heart.addEventListener ('click', function() {
+                 heart.classList.toggle('red');
+                 });
+           })();  
+           // share onclick function
+          function welcome(){
+            window.open("contact.html")
+          }               
+         </script>
+        </div>
+        </div>
+  
+        <div id="sale_14">
+          <img src="./images/toner_glow_recipe.jpg" alt="toner_glow_recipe"> 
+          <hr>
+          <div class="price">
+            <p>Glow Recipe Serum</p>
+            <b class="sale_price">$8.78</b>
+          </div>
+          <div id="icons_14">
+            <button id="heart15" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+            <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+            <button onclick="addToCart(item14)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            <script>
+              (function() {
+               const heart = document.getElementById('heart14');
+                 heart.addEventListener ('click', function() {
+                   heart.classList.toggle('red');
+                   });
+             })();   
+              // share onclick function
+              function welcome(){
+                    window.open("contact.html")
+                  }              
+           </script>
+          </div>
+        </div>
+  
+          <div id="sale_15">
+            <img src="./images/toner_crozx.png" alt="toner_crozx"> 
+            <hr>
+            <div class="price">
+              <p>Croxz Toner</p>
+              <b class="sale_price">$2.80</b>
+            </div>
+            <div id="icons_15">
+              <button id="heart15" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+              <button onclick="welcome" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+              <button onclick="addToCart(item15)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+              <script>
+                (function() {
+                 const heart = document.getElementById('heart15');
+                   heart.addEventListener ('click', function() {
+                     heart.classList.toggle('red');
+                     });
+               })();  
+                // share onclick function
+              function welcome(){
+                    window.open("contact.html")
+                  }               
+             </script>
+            </div>
+          </div>
+  
+          <div id="sale_16">
+              <img src="./images/toner_habalabo.jpg" alt="toner_habalabo"> 
+              <hr>
+            <div class="price">
+              <p>Habalabo Toner</p>
+              <b class="sale_price">$2.99</b>
+            </div>
+            <div id="icons_16">
+              <button id="heart16" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+              <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+              <button onclick="addToCart(item16)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+              <script>
+                (function() {
+                 const heart = document.getElementById('heart16');
+                   heart.addEventListener ('click', function() {
+                     heart.classList.toggle('red');
+                     });
+               })();    
+                // share onclick function
+              function welcome(){
+                    window.open("contact.html")
+                  }             
+             </script>
+            </div>
+          </div>
+            
+          <div id="sale_17">
+                <img src="./images/toner_indielee.jpg" alt="toner_indielee"> 
+                <hr>
+            <div class="price">
+              <p>Indielee Toner</p>
+              <b class="sale_price">$3.75</b>
+            </div>
+            <div id="icons_17">
+              <button id="heart17" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+              <button onclick="addToCart(item17)" onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+              <button class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+              <script>
+                (function() {
+                 const heart = document.getElementById('heart17');
+                   heart.addEventListener ('click', function() {
+                     heart.classList.toggle('red');
+                     });
+               })();
+                // share onclick function
+              function welcome(){
+                    window.open("contact.html")
+                  }                 
+             </script>
+            </div>
+          </div>
+  
+          <div id="sale_18">
+            <img src="./images/toner_kombucha.jpg" alt="Kombucha"> 
+            <hr>
+            <div class="price">
+              <p>Kumbucha Toner</p>
+              <b class="sale_price">$14.00</b>
+            </div>
+            <div id="icons_18">
+              <button id="heart18" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+              <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+              <button onclick="addToCart(item18)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+              <script>
+                (function() {
+                 const heart = document.getElementById('heart18');
+                   heart.addEventListener ('click', function() {
+                     heart.classList.toggle('red');
+                     });
+               })(); 
+                // share onclick function
+              function welcome(){
+                    window.open("contact.html")
+                  }                
+             </script>
+            </div>
+          </div>          
+  </div> 
+  <!-- /end of ROW 2 PRODUCTS-->
+
+  <!--  ROW 3 PRODUCTS-->
+  <div class="row_3_prdct">
+
+    <div id="sale_19">
+      <img src="./images/serum_cicaapair.jpg" alt="serum_cicaapair">
+      <hr>
+      <div class="price">
+        <p>Cicaapair Serum</p>
+        <b class="sale_price">9.99</b>
+      </div>
+      <div id="icons_19">
+        <button id="heart19" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+        <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+        <button onclick="addToCart(item19)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+        <script>
+          (function() {
+           const heart = document.getElementById('heart19');
+             heart.addEventListener ('click', function() {
+               heart.classList.toggle('red');
+               });
+         })();
+          // share onclick function
+          function welcome(){
+                    window.open("contact.html")
+                  }                 
+       </script>
+      </div>
+    </div>
+
+      <div id="sale_20">
+        <img src="./images/serum_loreal.jpg" alt="serum_loreal">
+        <hr>
+        <div class="price">
+          <p>Loreal RevitalLift Serum</p>
+          <b class="sale_price">$5.55</b>
+        </div>
+        <div id="icons_20">
+          <button id="heart20" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+          <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+          <button onclick="addToCart(item20)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+          <script>
+            (function() {
+             const heart = document.getElementById('heart20');
+               heart.addEventListener ('click', function() {
+                 heart.classList.toggle('red');
+                 });
+           })();     
+            // share onclick function
+            function welcome(){
+              window.open("contact.html")
+            }            
+         </script>
+        </div>
+      </div>
+
+      <div id="sale_21">
+        <img src="./images/mask_farmacy_honey.png" alt="mask_farmacy_honey">
+        <hr>
+        <div class="price">
+          <p>Farmacy Honey Mask</p>
+          <b class="sale_price">$11.55</b>
+        </div>
+        <div id="icons_21">
+          <button id="heart21" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+          <button onclick="welcome" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+          <button onclick="addToCart(item21)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+          <script>
+            (function() {
+             const heart = document.getElementById('heart21');
+               heart.addEventListener ('click', function() {
+                 heart.classList.toggle('red');
+                 });
+           })(); 
+            // share onclick function
+            function welcome(){
+              window.open("contact.html")
+            }                
+         </script>
+        </div>
+        </div>
+
+        <div id="sale_22">
+          <img src="./images/serum_estee_lauder.jpg" alt="serum_estee_lauder">
+          <hr>
+          <div class="price">
+            <p>Estee Lauder Serum</p>
+            <b class="sale_price">$45.99</b>
+          </div>
+          <div id="icons_22">
+            <button id="heart22" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+            <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+            <button onclick="addToCart(item22)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            <script>
+              (function() {
+               const heart = document.getElementById('heart22');
+                 heart.addEventListener ('click', function() {
+                   heart.classList.toggle('red');
+                   });
+             })(); 
+              // share onclick function
+              function welcome(){
+                window.open("contact.html")
+              }                
+           </script>
+          </div>
+          </div>
+
+          <div id="sale_23">
+            <img src="./images/serum_perriconeMD.jpg" alt="serum_perriconeMD">
+            <hr>
+            <div class="price">
+              <p>PerriconeMD Serum</p>
+              <b class="sale_price">$11.55</b>
+            </div>
+            <div id="icons_23">
+              <button id="heart23" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+              <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+              <button onclick="addToCart(item23)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+              <script>
+                (function() {
+                 const heart = document.getElementById('heart23');
+                   heart.addEventListener ('click', function() {
+                     heart.classList.toggle('red');
+                     });
+               })();  
+                // share onclick function
+                function welcome(){
+                  window.open("contact.html")
+                }               
+             </script>
+            </div>
+            </div>
+
+            <div id="sale_24">
+              <img src="./images/mask_olehenriksen.jpg" alt="mask_olehenriksen">
+              <hr>
+              <div class="price">
+                <p>Olehenriksen Mask</p>
+                <b class="sale_price">$22.65</b>
+              </div>
+              <div id="icons_24">
+                <button id="heart24" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+                <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button onclick="addToCart(item24)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                <script>
+                  (function() {
+                   const heart = document.getElementById('heart24');
+                     heart.addEventListener ('click', function() {
+                       heart.classList.toggle('red');
+                       });
+                 })();  
+                  // share onclick function
+                  function welcome(){
+                    window.open("contact.html")
+                  }               
+               </script>
+              </div>
+              </div>
+            </div>
+<!-- /end of ROW 3 PRODUCTS -->
+
+
+      <!--  ROW 4 PRODUCTS-->
+  <div class="row_4_prdct">
+
+    <div id="sale_25">
+      <img src="./images/cleanser_trilogy.jpg" alt="cleanser_trilogy">
+      <hr>
+      <div class="price">
+        <p>Trilogy Cleanser</p>
+        <b class="sale_price">22.99</b>
+      </div>
+      <div id="icons_25">
+        <button id="heart25" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+        <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+        <button onclick="addToCart(item25)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+        <script>
+          (function() {
+           const heart = document.getElementById('heart25');
+             heart.addEventListener ('click', function() {
+               heart.classList.toggle('red');
+               });
+         })();  
+         // share onclick function
+        function welcome(){
+          window.open("contact.html")
+        }               
+       </script>
+      </div>
+    </div>
+
+      <div id="sale_26">
+        <img src="./images/toner_mamonde.png" alt="toner_mamonde">
+        <hr>
+        <div class="price">
+          <p>Mamonde Toner</p>
+          <b class="sale_price">$13.55</b>
+        </div>
+        <div id="icons_26">
+          <button id="heart26" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+          <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+          <button onclick="addToCart(item26)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+          <script>
+            (function() {
+             const heart = document.getElementById('heart26');
+               heart.addEventListener ('click', function() {
+                 heart.classList.toggle('red');
+                 });
+           })();   
+           // share onclick function
+          function welcome(){
+            window.open("contact.html")
+          }              
+         </script>
+        </div>
+      </div>
+
+      <div id="sale_27">
+        <img src="./images/suncreen_peach.jpg" alt="suncreen_peach">
+        <hr>
+        <div class="price">
+          <p>Peach Sunscreen</p>
+          <b class="sale_price">$9.55</b>
+        </div>
+        <div id="icons_27">
+          <button id="heart27" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+          <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+          <button onclick="addToCart(item27)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+          <script>
+            (function() {
+             const heart = document.getElementById('heart27');
+               heart.addEventListener ('click', function() {
+                 heart.classList.toggle('red');
+                 });
+           })();   
+          // share onclick function
+          function welcome(){
+            window.open("contact.html")
+          }              
+         </script>
+        </div>
+        </div>
+
+        <div id="sale_28">
+          <img src="./images/mask_mylindstorm.png" alt="mask_mylindstorm">
+          <hr>
+          <div class="price">
+            <p>MyLindstorm Mask</p>
+            <b class="sale_price">$45.99</b>
+          </div>
+          <div id="icons_28">
+            <button id="heart28" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+            <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+            <button onclick="addToCart(item28)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            <script>
+              (function() {
+               const heart = document.getElementById('heart28');
+                 heart.addEventListener ('click', function() {
+                   heart.classList.toggle('red');
+                   });
+             })();   
+              // share onclick function
+              function welcome(){
+                window.open("contact.html")
+              }              
+           </script>
+          </div>
+        </div>
+
+          <div id="sale_29">
+            <img src="./images/moisture_mario_badescu.jpg" alt="moisture_mario_badescu">
+            <hr>
+            <div class="price">
+              <p>Mario Badescu Moisturizer</p>
+              <b class="sale_price">$33.55</b>
+            </div>
+            <div id="icons_29">
+              <button id="heart29" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+              <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+              <button onclick="addToCart(item29)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+              <script>
+                (function() {
+                 const heart = document.getElementById('heart29');
+                   heart.addEventListener ('click', function() {
+                     heart.classList.toggle('red');
+                     });
+               })(); 
+               // share onclick function
+              function welcome(){
+                window.open("contact.html")
+              }                
+             </script>
+            </div>
+          </div>
+
+            <div id="sale_30">
+              <img src="./images/mask_superberry.png" alt="mask_superberry">
+              <hr>
+              <div class="price">
+                <p>Superberry Mask</p>
+                <b class="sale_price">$22.65</b>
+              </div>
+              <div id="icons_30">
+                <button id="heart30" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+                <button onclick="welcome()" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button onclick="addToCart(item30)" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                <script>
+                  (function() {
+                   const heart = document.getElementById('heart30');
+                     heart.addEventListener ('click', function() {
+                       heart.classList.toggle('red');
+                       });
+                 })();   
+                 // share onclick function
+              function welcome(){
+                window.open("contact.html")
+              }              
+               </script>
+              </div>
+            </div>
+          </div><br>
+<!-- /end of ROW 4 PRODUCTS -->
+  <hr>
+  <div class="button_sgn">
+    <button id="email_icon"><i class="fa fa-envelope" aria-hidden="true"></i></button>
+    <button id="fb_icon"><i class="fa fa-facebook-official" aria-hidden="true"></i></button>
+    <button id="phone_icon"><i class="fa fa-phone" aria-hidden="true"></i></button>
+    <button id="add_book"><i class="fa fa-address-book-o" aria-hidden="true"></i></button>
+  </div>
+  <p id="bottom_crdt"><b id="b_bottom_crdt">Created By :</b>&nbsp;jetajobeTECH3@gmail.com<b id="b_2_crdt">&nbsp;| All Rights Reserved</b></p>
+      
+  <script type="text/javascript" src="index.js">
+  </script>
+</body> 
+</html>

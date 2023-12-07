@@ -1,0 +1,125 @@
+.signup_content_log {
+    padding: 3em;
+    width: 30em;
+    height: 80vh;
+    background-color: #187905d9;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2em;
+}
+h3 {
+    font-size: 4vmin;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: #000000;
+}
+#sgn_doc {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+input{
+    border: 0;
+    border-radius: 60px;
+    outline: none;
+    background-color: #ffffff;
+    padding: 1em;
+    width: 30em;
+}
+/*btns */
+
+#sgn_up_btn {
+    margin: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+    font-size: 3vmin;
+    background-color: #479a37;
+    color: #ffffff;
+    border-radius: 0.5em;
+    border-color: #ffffff;
+}
+#sgn_up_btn a:hover {
+    color: #031c03;
+}
+#sgn_note {
+    margin: 8px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2vmin;
+    color: #ffffff;
+    text-shadow: #000000;
+}
+#sgn_note b {
+    color: #ffffff;
+}
+b {
+    color: rgb(55, 28, 0);
+}
+p{
+    font-size: 13pt;
+}
+/* animations */
+.signup_content_log {
+    animation-name: box;
+    animation-duration: 20s;
+}
+
+/* sgn_buttons */
+.button_sgn {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+.button_sgn button i{
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 3em;
+    height: 3em;
+    padding: 1em;
+    border-radius: 6em;
+
+}
+
+#email_icon{
+    background: transparent;
+    border: 0;
+    outline: none;
+    size: 1em;
+    margin: 10px;
+
+}
+#fb_icon{
+    background: transparent;
+    border: 0;
+    outline: none;
+    size: 1em;
+    height: 5px;
+    margin: 10px;
+}
+#phone_icon{
+    background: transparent;
+    border: 0;
+    outline: none;
+    size: 1em;
+    height: 5px;
+    margin: 10px;
+}
+#add_book{
+    background: transparent;
+    border: 0;
+    outline: none;
+    size: 1em;
+    margin: 10px;
+}
